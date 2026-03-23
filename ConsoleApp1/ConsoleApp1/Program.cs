@@ -21,9 +21,11 @@ namespace PracticeWork1
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Программа успешно запущена");
             Firm myFirm = new Firm("Техно-Горизонт", "ул. Ленина, 5", 2010);
 
             Console.WriteLine($"Фирма: {myFirm.Name}, Год: {myFirm.FoundingYear}");
+
         }
     }
 }
